@@ -22,7 +22,6 @@ public class Producer extends Consumer {
 		} else {
 			System.out.println("not null");
 		}
-		System.out.println("ffF");
 		System.out.println(queueMsg.printAllBoard());
 
 		return queueMsg.printAllBoard();
